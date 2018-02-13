@@ -1,0 +1,3 @@
+
+Date:13-02-2018 -1.Understood the basics of API (i.e what are they actually and how to use them)
+                 2.Understanding JavascriptAPI (one of the types of API)
