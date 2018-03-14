@@ -1,0 +1,20 @@
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+<div class="pac-card" id="pac-card">
+  <div id="pac-container">
+    <input id="pac-input" type="text"
+        placeholder="Enter a location">
+  </div>
+</div>
+<div id="map"></div>
+<div id="infowindow-content">
+  <img src="" width="16" height="16" id="place-icon">
+  <span id="place-name"  class="title"></span><br>
+  <span id="place-address"></span>
+</div>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCpPscyfGHJM2_i-CYFGjAaA3M13I61kJU&libraries=places&callback=initMap"
+        async defer></script>
+<script src="clientjs.js"></script>
+</html>
